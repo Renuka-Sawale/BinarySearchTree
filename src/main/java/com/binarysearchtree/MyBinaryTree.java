@@ -2,11 +2,7 @@ package com.binarysearchtree;
 
 public class MyBinaryTree<K extends Comparable<K>> {
 
-    public static void main(String[] args) {
-        System.out.println("Welcome to BST");
-    }
-
-    /*private MyBinaryNode<K> root;
+    private MyBinaryNode<K> root;
 
     public void add(K key) {
         this.root = this.addRecursively(root, key);
@@ -32,6 +28,6 @@ public class MyBinaryTree<K extends Comparable<K>> {
     private int getSizeRecursive(MyBinaryNode<K> current) {
         return current == null ? 0 : 1 + this.getSizeRecursive(current.left)
                                        + this.getSizeRecursive(current.right);
-    }*/
+    }
 }
 
